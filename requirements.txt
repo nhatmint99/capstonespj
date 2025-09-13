@@ -5,3 +5,5 @@ scikit-learn
 scipy
 matplotlib
 seaborn
+gensim>=4.3,<5
+wordcloud
