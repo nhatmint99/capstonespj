@@ -78,8 +78,8 @@ menu = st.sidebar.radio(
     [   "Introduction",
         "Business Problem",
         "Evaluation & Report",
-        "New Prediction / Analysis",
-        "Recommendation"
+        "New Prediction / Analysis"
+        # "Recommendation"
         
     ]
 )
@@ -186,16 +186,16 @@ elif menu == "New Prediction / Analysis":
 # ===============================
 # Recommendation Section
 # ===============================
-elif menu == "Recommendation":
-    st.title("💡 Recommendations by Segment")
-    st.write("""
-    - **Champions** → Reward with loyalty programs, early access.  
-    - **Loyal Customers** → Exclusive deals to maintain engagement.  
-    - **Frequent Buyers** → Suggest bundles, cross-selling.  
-    - **Big Spenders** → Premium offers, VIP services.  
-    - **At Risk** → Send reminders, discounts to reactivate.  
-    - **Lost Customers** → Win-back campaigns with special offers.  
-    """)
+# elif menu == "Recommendation":
+#     st.title("💡 Recommendations by Segment")
+#     st.write("""
+#     - **Champions** → Reward with loyalty programs, early access.  
+#     - **Loyal Customers** → Exclusive deals to maintain engagement.  
+#     - **Frequent Buyers** → Suggest bundles, cross-selling.  
+#     - **Big Spenders** → Premium offers, VIP services.  
+#     - **At Risk** → Send reminders, discounts to reactivate.  
+#     - **Lost Customers** → Win-back campaigns with special offers.  
+#     """)
 
 # ===============================
 # Thông tin nhóm
