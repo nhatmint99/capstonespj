@@ -143,7 +143,12 @@ elif menu == "Evaluation & Report":
 # ===============================
 elif menu == "New Prediction / Analysis":
     st.title("🔮 Customer Prediction (Manual Input)")
-
+    st.write("""- **Champions** → Reward with loyalty programs, early access.  
+    - **Loyal Customers** → Exclusive deals to maintain engagement.  
+    - **Frequent Buyers** → Suggest bundles, cross-selling.  
+    - **Big Spenders** → Premium offers, VIP services.  
+    - **At Risk** → Send reminders, discounts to reactivate.  
+    - **Lost Customers** → Win-back campaigns with special offers.""")
     col1, col2, col3 = st.columns(3)
     with col1:
         R = st.slider("Recency Score (1–4)", 1, 4, 2)
